@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Chat UI</title>
+	<link rel="stylesheet" type="text/css" media="screen" href="chat.css" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    
+</head>
+<body>
+	<div id="chat-container">
+		
+		<div id="search-container">
+		<input type="text" placeholder="search" onfocus="this.placeholder = ''"onblur="this.placeholder = 'search'" />
+		   
+			  
+		</div>
+		<div id="conversation-list">
+			<script>
+				function myfunction()
+				{
+					var m=document.getElementById("message");
+					document.getElementById("msg").innerHTML= m.value;
+					document.getElementById("time").innerHTML="now";
+					
+				}
+			</script>
+			<div class="conversation " >
+				<img src="images/vaishnavi.jpg" alt="stasha"/>
+				<div class="title-text">
+					Stasha Singhania
+				</div>
+				<div class="created-date">
+					May 30
+				</div>
+				<div class="conversation-message">
+					typing...
+				</div>
+			</div>
+			<div class="conversation ">
+				<img src="images/bharat.jpg" alt="stasha"/>
+				<div class="title-text">
+					Georgie
+				</div>
+				<div class="created-date">
+					Yesterday
+				</div>
+				<div class="conversation-message">
+					wannna join us
+				</div>
+			</div>
+			<div class="conversation">
+				<img src="images/b2.jpg" alt="stasha"/>
+				<div class="title-text">
+					Rishabh
+				</div>
+				<div class="created-date">
+					April 19
+				</div>
+				<div class="conversation-message">
+				    check your phone
+				</div>
+			</div>
+			<div class="conversation">
+				<img src="images/aish.jpg" alt="stasha"/>
+				<div class="title-text">
+					Aishwarya
+				</div>
+				<div class="created-date">
+					April 20
+				</div>
+				<div class="conversation-message">
+				    abcddd aabsb
+				</div>
+			</div>
+			<div class="conversation ">
+				<img src="images/aish2.jpg" alt="stasha"/>
+				<div class="title-text">
+					Danish
+				</div>
+				<div class="created-date">
+					April 18
+				</div>
+				<div class="conversation-message">
+				    waiting....
+				</div>
+			</div>
+			<div class="conversation ">
+				<img src="images/a1.jpg" alt="stasha"/>
+				<div class="title-text">
+					Joey
+				</div>
+				<div class="created-date">
+					April 18
+				</div>
+				<div class="conversation-message">
+				    heyyy wassup....
+				</div>
+			</div>
+			<div class="conversation ">
+				<img src="images/s1.jpg" alt="sksh"/>
+				<div class="title-text">
+					Ian
+				</div>
+				<div class="created-date">
+					march 19
+				</div>
+				<div class="conversation-message">
+				    busy right now
+				</div>
+			</div>
+			<div class="conversation ">
+				<img src="images/v1.png" alt="stasha"/>
+				<div class="title-text">
+					Rahul
+				</div>
+				<div class="created-date">
+					feb 20
+				</div>
+				<div class="conversation-message">
+				    check this out
+				</div>
+			</div>
+			
+			
+
+
+		</div>
+		<div id="new-message-container">
+
+			<input type="image" src="images/add.png" alt="add" />
+		</div>
+		<div id="chat-title">
+		   <span>Stasha</span>
+		   
+		</div>
+		<div id="chat-message-list">
+	                       <div class="message-row you-message">
+				    <div class="message-content">
+				    <div class="message-text" id="msg"></div>
+				    <div class="message-time" id="time"></div>
+				    </div>
+			        </div>
+		
+			
+			<div class="message-row you-message">
+				<div class="message-content">
+				<div class="message-text">heyyyy</div>
+				<div class="message-time">Apr 16</div>
+				</div>
+			</div>
+
+			<div class="message-row other-message">
+				<div class="message-content">
+                 <img src="images/vaishnavi.jpg" alt="stasha"/>
+				<div class="message-text">
+					hieeeee..wassap??
+				</div>
+				<div class="message-time">Apr 16</div>
+				</div>
+			</div>
+			<div class="message-row you-message">
+				<div class="message-content">
+				<div class="message-text">howz the project going have yu worked on something new?</div>
+				<div class="message-time">Apr 16</div>
+				</div>
+			</div>
+
+			<div class="message-row other-message">
+				<div class="message-content">
+                 <img src="images/vaishnavi.jpg" alt="stasha"/>
+				<div class="message-text">
+					right now I am going through some research paper trying to collect some data about it...</div>
+				<div class="message-time">Apr 16</div>
+				</div>
+			</div>
+			<div class="message-row you-message">
+				<div class="message-content">
+				<div class="message-text">Ok then, I suppose from the next week we will be able to work on it</div>
+				<div class="message-time">Apr 16</div>
+				</div>
+			</div>
+
+			<div class="message-row other-message">
+				<div class="message-content">
+                 <img src="images/vaishnavi.jpg" alt="stasha"/>
+				<div class="message-text">
+					Ya , I also feel the same</div>
+				<div class="message-time">Apr 16</div>
+				</div>
+			</div>
+
+			<div class="message-row you-message">
+				<div class="message-content">
+				<div class="message-text">Till then you carry on </div>
+				<div class="message-time">Apr 16</div>
+				</div>
+			</div>
+
+			<div class="message-row other-message">
+				<div class="message-content">
+                 <img src="images/vaishnavi.jpg" alt="stasha"/>
+				<div class="message-text">
+					hmmmmm......</div>
+				<div class="message-time">Apr 16</div>
+				</div>
+			</div>
+			<div class="message-row you-message">
+				<div class="message-content">
+				<div class="message-text">you can visit their website</div>
+				<div class="message-time">Apr 16</div>
+				</div>
+			</div>
+
+			<div class="message-row other-message">
+				<div class="message-content">
+                 <img src="images/vaishnavi.jpg" alt="stasha"/>
+				<div class="message-text">
+					ok I have some work to do after that I'll go through it..goodnight</div>
+				<div class="message-time">Apr 16</div>
+				</div>
+			</div>
+
+          
+
+
+		</div>
+		<div id="chat-form">
+			<input type="image" src="images/send.png" alt="send" onclick="myfunction()" />
+			<input type="text" placeholder=" type a message" onfocus="this.placeholder = ''"onblur="this.placeholder = ' type a message'" id="message" />
+		</div>
+
+
+
+	</div>
+
+</body>
+</html>
